@@ -1,0 +1,45 @@
+/.phpunit.cache
+/.phpunit.result.cache
+
+/node_modules
+/vendor
+
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+
+/storage/*.key
+/storage/pail
+/storage/logs/*.log
+
+# Environnements
+.env
+.env.*
+!.env.example
+
+# Bases locales SQLite
+/database/*.sqlite
+/database/*.sqlite-*
+/database/*.db
+
+.phpactor.json
+
+Homestead.json
+Homestead.yaml
+
+npm-debug.log
+yarn-error.log
+
+/auth.json
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
